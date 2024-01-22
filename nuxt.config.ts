@@ -1,7 +1,13 @@
 import { pwa } from './config/pwa'
 import { appDescription } from './constants/index'
-
+import projectdata from './project.json'
 export default defineNuxtConfig({
+  generate: {
+
+  },
+  dir: {
+    pages: projectdata.pages,
+  },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',

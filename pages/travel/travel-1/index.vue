@@ -1,4 +1,4 @@
-<script setup>
+<script>
 definePageMeta({
   layout: 'default',
 })
@@ -6,5 +6,5 @@ definePageMeta({
 
 
 <template>
-<div>index</div>
+  <div>travel-1</div>
 </template>
